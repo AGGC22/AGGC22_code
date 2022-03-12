@@ -1,6 +1,7 @@
 # AGGC22
 
-This MATLAB code is provided for participants of Automated Gleason Grading Challenge 2022 (https://aggc22.grand-challenge.org/) to read the original image data. User must download the MATLAB Bio-Format toolbox from https://www.openmicroscopy.org/bio-formats/downloads/ to run the code.
+## Introduction
+This MATLAB ode is provided for participants of Automated Gleason Grading Challenge 2022 (https://aggc22.grand-challenge.org/) to read the original image data. The MATLAB Bio-Format toolbox (https://www.openmicroscopy.org/bio-formats/downloads/) is needed to run the code.
 
 There are 3 subsets of data in the challenge:
 
@@ -14,16 +15,17 @@ In the original format, there are multiple frames which correspond to different 
 
 
 --------------------------------------------------------------------------------------------------------------
+## MATLAB function
 
 function imRGB = fcn_read_original_format(input_folder, filename, stack_number)
 
 Input variable: 
 
-iutput_folder – folder path of the image 
+**iutput_folder** – folder path of the image 
 
-filename – full filename of the image, must include file extension
+**filename** – full filename of the image, must include file extension
 
-stack_number – to indicate the resolution you want to read: 
+**stack_number** – to indicate the resolution you want to read: 
 
 •	Akoya (.qptiff):  20x: stack_number = 1, 10x: stack_number = 2, 5x: stack_number = 3.
 
