@@ -11,7 +11,7 @@ There are 3 subsets of data in the challenge:
 
 For Philips, since the format is “.tiff”, which can be directly read by any image reading function, there is no need to run the code. The Philips images are 40x.
 
-In the original format, there are multiple frames which correspond to different resolutions stored, while the ground truth annotation is 20x. Please resize accordingly.
+In the original format, there are multiple frames which correspond to different resolutions stored, while the **ground truth annotation is 20x. Please resize accordingly.**
 
 
 --------------------------------------------------------------------------------------------------------------
