@@ -1,7 +1,7 @@
 # AGGC22
 
 ## Introduction
-This MATLAB ode is provided for participants of Automated Gleason Grading Challenge 2022 (https://aggc22.grand-challenge.org/) to read the original image data. The MATLAB Bio-Format toolbox (https://www.openmicroscopy.org/bio-formats/downloads/) is needed to run the code.
+This MATLAB ode is provided for participants of Automated Gleason Grading Challenge 2022 (https://aggc22.grand-challenge.org/) to read the original image data. The MATLAB Bio-Format toolbox (https://www.openmicroscopy.org/bio-formats/downloads/) is required to run the code.
 
 There are 3 subsets of data in the challenge:
 
